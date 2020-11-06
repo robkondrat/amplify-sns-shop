@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "BoyakiGql",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authamplifysnsshop3298969e",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
